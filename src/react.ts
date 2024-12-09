@@ -19,7 +19,6 @@ interface ReactPlugin {
 
 type ReactHooksPlugin = ESLintPlugin & { configs: Record<'recommended', { rules: ESLintRules }> };
 
-// @ts-ignore: ts(7016) because eslint-plugin-react has not type files.
 import _reactPlugin from 'eslint-plugin-react';
 // @ts-ignore: ts(7016) because eslint-plugin-react-hooks has not type files.
 import _reactHooksPlugin from 'eslint-plugin-react-hooks';
