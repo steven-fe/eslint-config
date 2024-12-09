@@ -38,7 +38,7 @@
     "typescript-eslint": "^8.1.0"
   },
   "devDependencies": {
-    "@coinstore/eslint-config": "1.0.0-alpha.1",
+    "@coinstore/eslint-config": "1.0.0-alpha.2",
     "@coinstore/prettier-config": "1.0.0-alpha.2",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
